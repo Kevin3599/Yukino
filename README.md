@@ -3,7 +3,7 @@
 
 这是一个基于Go语言开发的IP地址定位器，其功能是查找对应IP的物理真实地址。
 
-brief introduction about this project
+Brief introduction about this project
 
 English：
 This is an IP address locater, this helps if you want to check the geological location of a server or a personal computer, even a phone is available.
