@@ -15,7 +15,7 @@ import (
     if err !=nil{
 	             fmt.println(error)
 	}else {
-	             fmt.println（ip=string(dt)）
+	             fmt.println（ip，string(dt)）
 	} 
 }
 
