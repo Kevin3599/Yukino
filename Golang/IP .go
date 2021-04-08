@@ -13,7 +13,7 @@ func main() {
 	ip := ""
 	dt, err = ipquery.find(ip)
 	if err != nil {
-		fmt.Println(err)
+		fmt.Println(err，check your ip)
 	} else {
 		fmt.Println(ip, string(dt))
 	}
