@@ -3,12 +3,13 @@ package main
 import (
 	"fmt"
 
-	"github.com/tabalt/ipquery"
+	"github.com/goinbox/ipquery"
 )
 
 func main() {
+	fmt.Println("欢迎使用")
 	varl1 := "testdata/test_10000.data"
-	err := ipquery.load
+	err := ipquery.Load
 	if err != nil {
 		fmt.Println(err)
 	}
@@ -19,6 +20,4 @@ func main() {
 	} else {
 		fmt.Println(ip, string(varl1))
 	}
-}
-
 }
