@@ -3,7 +3,7 @@ package main
 import (
 	"fmt"
 
-	"github.com/tabalt/ipquery"
+	"github.com/goinbox/ipquery"
 )
 
 func main() {
