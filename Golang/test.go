@@ -13,7 +13,7 @@ func main() {
 	if err != nil {
 		fmt.Println(err)
 	}
-	ip := "varl1"
+	ip := "varl"
 	varl1, err = ipquery.find(ip)
 	if err != nil {
 		fmt.Println(err)
