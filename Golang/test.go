@@ -14,7 +14,6 @@ func main() {
 	if err != nil {
 		fmt.Println(err)
 	}
-
 	ip := "varl2"
 	varl1, err = ipquery.find(ip)
 	if err != nil {
