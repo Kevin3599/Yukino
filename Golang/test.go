@@ -8,13 +8,14 @@ import (
 
 func main() {
 	fmt.Println("欢迎使用")
+	fmt.Scanln(&varl2)
 	varl1 := "testdata/test_10000.data"
 	err := ipquery.Load
 	if err != nil {
 		fmt.Println(err)
 	}
 
-	ip := "varl1"
+	ip := "varl2"
 	varl1, err = ipquery.find(ip)
 	if err != nil {
 		fmt.Println(err)
