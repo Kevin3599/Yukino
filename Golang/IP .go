@@ -1,20 +1,5 @@
-package main
-
-import (
-	"fmt"
-)
-
-func main() {
-	varl1 := "testdata/test_10000.data"
-	err := ipquery.load
-	if err != nil {
-		fmt.Println(err)
-	}
-	ip := ""
-	varl1, err = ipquery.find(ip)
-	if err != nil {
-		fmt.Println(err)
-	} else {
-		fmt.Println(ip, string(varl1))
-	}
-}
+fmt.Printf("Your name is %s", input)
+var name string
+fmt.Println("请输入姓名:")
+// 当程序执行到 fmt.Scanl(&name), 程序会停止这里, 等待用户输入, 并回车
+fmt.Scanln(&name)
