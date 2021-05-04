@@ -1,2 +1,1 @@
-print("hello Python")
-input=varl1
+print("hello world")
