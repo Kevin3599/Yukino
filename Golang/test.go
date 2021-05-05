@@ -7,7 +7,7 @@ import (
 )
 
 func main() {
-	fmt.Println("欢迎使用")
+	fmt.Println("您好！欢迎使用")
 	var ip  float32
 	fmt.Println("输入你的IP地址")
 	varl2=fmt.Scanln(&ip)
