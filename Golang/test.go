@@ -9,9 +9,9 @@ import (
 func main() {
 	fmt.Println("欢迎使用")
 	var ip  float32
-	fmt.Println("输入你的IP")
+	fmt.Println("输入你的IP地址")
 	varl2=fmt.Scanln(&ip)
-	})
+    })
 	varl1 := "testdata/test_10000.data"
 	err := ipquery.Load
 	if err != nil {
