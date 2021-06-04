@@ -8,6 +8,7 @@ class video(object):
 
 class Movie_mp4(video):
     type='MP4'
-
 movie = Movie_mp4(r'')
 movie.paly()
+###
+A funny trick, isn’t it? 😀
