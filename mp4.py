@@ -10,5 +10,4 @@ class Movie_mp4(video):
     type='MP4'
 movie = Movie_mp4(r'')
 movie.py()
-###
-A funny trick, isn’t it? 😀
+#A funny trick, isn’t it? 😀
