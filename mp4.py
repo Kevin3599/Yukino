@@ -9,6 +9,6 @@ class video(object):
 class Movie_mp4(video):
     type='MP4'
 movie = Movie_mp4(r'')
-movie.paly()
+movie.py()
 ###
 A funny trick, isn’t it? 😀
